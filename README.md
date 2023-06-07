@@ -1,6 +1,19 @@
-# FlatList Navigation Title
+# FlatList Navigation Moving Header
 
-Example of how to use a FlatList (or ScrollView)
+Example of how to use a FlatList (or ScrollView) with a page header that moves to the navigation bar when scrolling down and moves back when scrolling up again.
+
+<p float="left" align="middle">
+  <img src="assets/screenshots/flatlist_nav.gif" width="90%">
+</p>
+
+Original movie recorded on iPhone 14 Pro Max simulator (mp4). Using Rotato the movie was dragged into an iPhone 13 Pro Max frame and exported as as a Apple ProRes4444 movie in 1080p. The Apple ProRes4444 movie was then converted into an animated gif using Gifski (right click movie as choose open with -> Gifski). Dimensions chosen 1920x1080, speed (2x), FPS (max) and Quality (max) and Loop Forever.
+
+Features:
+
+- Works on both iOS and Android
+- FPS close to the max (60) due to minimal react re-renders, both on iOS and Android
+- Uses React Native Navigation
+- The example uses a FlatList, but the exact same technique works with a ScrollView (FlatList uses a ScrollView internally anyway)
 
 Based on the excellent work of the good people at Coinbase:
 
