@@ -1,6 +1,6 @@
 # FlatList Navigation Moving Header
 
-Example of how to use a FlatList (or ScrollView) with a page header that moves to the navigation bar when scrolling down and moves back when scrolling up again.
+React Native example of how to use a FlatList (or ScrollView) with a page header that moves to the navigation bar when scrolling down and moves back when scrolling up again.
 
 <p float="left" align="middle">
   <img src="assets/screenshots/flatlist_nav.gif" width="90%">
