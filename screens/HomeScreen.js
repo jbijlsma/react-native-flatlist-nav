@@ -1,5 +1,5 @@
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
-import { StyleSheet, View } from "react-native";
+import { Platform, StyleSheet, View } from "react-native";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -14,7 +14,8 @@ function HomeScreen() {
     setScrollY(y);
   }, []);
 
-  const showTitle = scrollY > Theme.headerHeight * 0.6;
+  const offset = Platform.OS === "ios" ? Theme.sizing.headerHeight : 0;
+  const showTitle = scrollY + offset > Theme.sizing.headerHeight * 0.6;
 
   return (
     <View style={styles.container}>
@@ -29,7 +30,7 @@ function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "rgb(242,242,247)",
+    backgroundColor: Theme.backgroundColor,
   },
 });
 
