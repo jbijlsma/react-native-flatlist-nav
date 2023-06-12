@@ -6,7 +6,7 @@ React Native example of how to use a FlatList (or ScrollView) with a page header
   <img src="assets/screenshots/flatlist_nav.gif" width="90%">
 </p>
 
-Original movie recorded on iPhone 14 Pro Max simulator (mp4). Using Rotato the movie was dragged into an iPhone 13 Pro Max frame and exported as as a Apple ProRes4444 movie in 1080p. The Apple ProRes4444 movie was then converted into an animated gif using Gifski (right click movie as choose open with -> Gifski). Dimensions chosen 1920x1080, speed (2x), FPS (max) and Quality (max) and Loop Forever.
+Original movie recorded on iPhone 14 Pro Max simulator (mp4). Using Rotato the movie was dragged into an iPhone 14 Pro Max frame and exported as as a Apple ProRes4444 movie in 1080p. Before exporting make sure you update the screen dimensions in the top right corner so the movie nicely fits the frame. Also make sure the background is set to 'transparent' before exporting. The Apple ProRes4444 movie was then converted into an animated gif using Gifski (right click movie as choose open with -> Gifski). Dimensions chosen 1920x1080, speed (2x), FPS (max) and Quality (max) and Loop Forever.
 
 Features:
 
